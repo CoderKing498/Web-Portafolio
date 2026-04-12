@@ -1,76 +1,107 @@
+/* Basic reset */
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+/* General Typegrafic */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+/* HEADER */
 h1{
     text-align: center;
     background-color: darkcyan;
     color: white;
     padding: 20px;
 }
+/* NAVEGATION MENU */
 nav ul{
     background-color: #757575;
-    width: 100%;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
 }
 nav li{
-    display: inline-flex
+    display: inline-block
 }
 nav a {
     text-decoration: none;
     color: green;
-    padding: 10px;
-    width: 150px;
+    padding: 12px 20px;
+    display: inline-block;
 }
-nav li:hover{
+/* Hover in menu */
+nav a:hover{
     background-color:darkgreen;
+    color: white;
 
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
+
+    /* Shadow */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+/* PRINCIPAL CONTENT */
 .content{
     display: flex;
-    margin: 60px;
+    margin: 40px;
 }
+/* ARTICLES */
 .articles{
-    width: 80%;
+    width: 75%;
     border-right: 3px solid black;
-    padding-right: 40px;
+    padding-right: 30px;
 
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
+/* EACH BLOCK */
 .sections{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
+/* ONSIDE MENU */
 .secondary-menu{
-    width: 20%;
-    margin-top: 60px;
+    width: 25%;
+    padding-left: 30px;
 }
+/* SIDEBAR LINKS */
 .secondary-menu a{
     display: block;
-    text-align: center;
+    margin-bottom: 15px;
     color: black;
-    margin-bottom: 20px;
+    text-decoration: none;
 }
+/* Hover sidebar */
+.secondary-menu a:hover{
+    color:darkcyan;
+    text-decoration: underline;
+}
+/* TEXT */
 .text {
     width: 65%;
 }
-
+.text h2{
+    margin-bottom: 10px;
+}
+/* PHOTOS */
 .image {
     width: 30%;
     display: flex;
     justify-content: center;
 }
+
 footer{
     width: 100%;
     height: 200px;
