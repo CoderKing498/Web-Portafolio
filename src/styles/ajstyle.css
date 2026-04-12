@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(/src/images/descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    
+
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.9rem;
+}

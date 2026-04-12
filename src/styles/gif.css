@@ -1,0 +1,14 @@
+.gif{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+.black-white {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100; /* Asegura que esté detrás del contenido */
+    object-fit: cover; /* Ajusta el video para cubrir el área */
+}
