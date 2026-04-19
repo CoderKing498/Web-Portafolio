@@ -7,11 +7,13 @@
         <meta charset="UTF-8">
             <!-- Specifies the author of the website -->
         <meta name="author" content="Diego Rodriguez">
-        <!-- Configures the viewport to ensure proper display on mobile devices-->
+            <!-- Configures the viewport to ensure proper display on mobile devices-->
         <meta name="viewport"  content="width=device-width, intitial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
             <!-- Add a shortcut icon -->
         <link rel="shortcut icon" href="/src/images/kapanga.png" type="image/png">
+            <!-- Add mobile.css for a responsive grid layout -->
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="src/styles/mobile.css">
             <!-- Add a css file for background video -->
         <link rel="stylesheet" href="/src/styles/gif.css">
             <!-- Add styles.css  -->
@@ -37,30 +39,67 @@
         <video autoplay loop muted poster="/src/images/videoplayback.mp4" class="black-white">
             <source src="/src/images/videoplayback.mp4" type="video/mp4">
         </video>
-            <h1>Diego Rodriguez</h1>
-            <p>I'm a curious guy who's just starting to get into the world of programming</p>
-            <br>
-            <p>This is my first project using HTML and CSS, and I want to excel in this field because I feel comfortable with it and this way I can learn and work</p>
-            <br>
-            <p>My little brother teaches me that life is a very difficult path to walk, with small obstacles that can be so deceptive—and when you fall, the real impact comes when you get back up from your wounds.</p>
-            <br>
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/CoderKing498/average-script" target="_blank">A Python Average Program</a></li>
-                <hr>
-                <br>
-                <li><a href="https://github.com/CoderKing498/CRUD_inventory_python" target="_blank">A useful inventory</a></li>
-                <br>
-                <hr>
-                <li><a href="pets.html">Don't click here</a></li>
-            </ul>
-            <br>
-            <h2>CLICK ON KIRA</h2>
-            <div class="centre-img">
-            <a href="pets.html">
-            <img src="/src/images/pets/kiranight.png" width="300" alt="">
-            </a>
-            </section>
+        <section id="grid">
+            <div class="container">
+             <h1>Diego Rodriguez</h1>
+            <div class="grid-wrapper">
+                <div class=" box box-1">
+                    <div class="profile-photo">
+                    <img src="/src/images/diego.jpg" alt="">
+                    </div>
+                    <h4>Brief Description</h4>
+                    <p>I'm a curious guy who's just starting to get into the world of programming.</p>
+                    <p>This is my first project using HTML and CSS, and I want to excel in this field because I feel comfortable with it and this way I can learn and work</p>
+                    <p>My little brother teaches me that life is a very difficult path to walk, with small obstacles that can be so deceptive—and when you fall, the real impact comes when you get back up from your wounds.</p>
+                </div>
+                    <div class=" box box-2">
+                        <img src="/src/images/github.png" alt="">
+                        <h4>My Github Projects</h4>
+                        <p>
+                            On GitHub, I've taken my first steps into this fast-paced world; 
+                            I've created inventory systems in Python and built a website to learn HTML and CSS... 
+                            I know they aren't the best projects, but every day just keeping forward.
+                        <ul>
+                        <li><a href="https://github.com/CoderKing498/average-script" target="_blank">A Python Average Program</a></li>
+                        <hr>
+                        <br>
+                        <li><a href="https://github.com/CoderKing498/CRUD_inventory_python" target="_blank">A useful inventory</a></li>
+                        <br>
+                        <hr>
+                        <li><a href="pets.html">Don't click here</a></li>
+                        </ul>
+                        <br>
+                    </div>
+                        <div class=" box box-3">
+                            <h4>About me</h4>
+                            <div class="centre-img">
+                                <a href="about-me.html">
+                                <img src="/src/images/About me.png" alt="">   
+                        </a>
+                    </div>
+                            <p>Want to get to know me better? Here are some fun facts about my life so you can see how I view things. 
+                                I know this page is still a work in progress, 
+                                but I’m always keeping a positive attitude..</p>    
+                        </div>
+                        <div class=" box box-4">
+                            <h4>CLICK ON KIRA</h4>
+                            <div class="centre-img">
+                            <a href="pets.html">
+                            <div class="dog-photo">
+                            <img src="/src/images/pets/icon kira.jpg" alt="">
+                            </div>
+                            </a>
+                            </div>
+                            
+                            <p>Would you like to see my pets? If you click on the image of my dog Kira, Feel free to check out the pet gallery on my website
+                                I hope you like this cute collection.</p>
+                            <p>There are some really rare animals, and others you can adopt as pets, 
+                                and it’s cool to learn a little about these creatures, which are living beings too.</p>
+                        </div>
+                    
+                
             </div>
+        </div>
+        </section>
     </body>
 </html>
