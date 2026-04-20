@@ -27,7 +27,7 @@ nav li{
 }
 nav a {
     text-decoration: none;
-    color: green;
+    color: red;
     padding: 12px 20px;
     display: inline-block;
 }

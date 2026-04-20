@@ -1,0 +1,1 @@
+console.log("Internet is gone")
