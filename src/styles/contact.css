@@ -72,3 +72,33 @@
 .container-form .btn-send:hover{
     background: #e39403;
 }
+@media (max-width: 1024px){
+    .grid-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #grid{
+        justify-content: center;
+        padding-left: 0;
+    }
+}
+@media (max-width: 768px){
+    .grid-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    img{
+        width: 15rem;
+    }
+    #grid{
+        justify-content: center;
+        padding-left: 0;
+    }
+}
+@media (max-width: 425px){
+    .grid-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #grid{
+        justify-content: center;
+        padding-left: 1rem;
+    }
+}
