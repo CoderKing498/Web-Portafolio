@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <!-- Language of the website -->
-        <html lang="en">
-            <!-- Sets the character encoding for the portfolio -->
+<!-- Language of the Website -->
+<html lang="en">
+<head>
+        <!-- META -->
+
+        <!-- Sets the character encoding for the portfolio -->
         <meta charset="UTF-8">
-            <!-- Specifies the author of the website -->
+        <!-- Specifies the author of the website -->
         <meta name="author" content="Diego Rodriguez">
-            <!-- Configures the viewport to ensure proper display on mobile devices-->
+        <!-- Configures the viewport to ensure proper display on mobile devices-->
         <meta name="viewport"  content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <!-- Add a shortcut icon -->
+        <!-- ICON -->
+        <!-- Add a shortcut icon -->
         <link rel="shortcut icon" href="/src/images/kapanga.png" type="image/png">
-            <!-- Add mobile.css for a responsive grid layout -->
+
+        <!-- CSS -->
+        <!-- Add mobile.css for a responsive grid layout -->
         <link rel="stylesheet" media="screen and (max-width:768px)" href="src/styles/mobile.css">
-            <!-- Add a css file for background video -->
+        <!-- Add a css file for background video -->
         <link rel="stylesheet" href="/src/styles/gif.css">
-            <!-- Add styles.css  -->
+        <!-- Add styles.css  -->
         <link rel="stylesheet" href="/src/styles/styles.css">
-            <!-- Page Title -->
+        <!-- Add style.min -->
+        <link rel="stylesheet" href="/src/styles/style.min.css">
+
+
+        <!-- TITLE -->
         <title>Carrotsheet</title>
-            <!-- Add a JavaScript file -->
+        <!-- JAVASCRIPT -->
         <script src="/index.js"></script>
-    </head>
-    <body>
+</head>
+<body>
         <header class="header">
             <div class="logo-header">
                 <img src="/src/images/kapanga.png" alt="">
@@ -42,6 +50,16 @@
             <source src="/src/images/videoplayback.mp4" type="video/mp4">
         </video>
         <section id="grid">
+            <button class="myButton"
+            onclick="cambiarColor()"
+                style=
+                "padding: 20px;
+                font-size: 16px;
+                cursor: pointer;
+                font-weight: 600;
+                border-radius: 8px;">
+            Click to change the color
+            </button>
             <div class="container">
             <h1>Diego Rodriguez</h1>
             <div class="grid-wrapper">
@@ -91,16 +109,22 @@
                             </div>
                             </a>
                             </div>
-                            
                             <p>Would you like to see my pets? If you click on the image of my dog Kira, Feel free to check out the pet gallery on my website
                                 I hope you like this cute collection.</p>
                             <p>There are some really rare animals, and others you can adopt as pets,
                                 and it's cool to learn a little about these creatures, which are living beings too.</p>
                         </div>
-                    
-                
+                    </div>
+                </div>
+            <div class="options">
+                <button id="btnShow" class="primary-btn" onclick="ShowHide()">
+                    Mostrar/Ocultar
+                </button>
             </div>
-        </div>
+            <div class="container_2" class="hidden">
+                <div class="overlay" onclick="ShowHide()"></div>
+                HI INTERNET BOY
+            </div>
         </section>
-    </body>
+</body>
 </html>

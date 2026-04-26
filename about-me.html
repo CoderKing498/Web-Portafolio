@@ -1,58 +1,110 @@
 <!DOCTYPE html>
-<html>
+<!-- Language of the website -->
+<html lang="en">
     <head>
-            <!-- Language of the website -->
-        <html lang="en">
-            <!-- Sets the character encoding for the portfolio -->
+        <!-- META -->
+        <!-- Sets the character encoding for the portfolio -->
         <meta charset="UTF-8">
-            <!-- Specifies the author of the website -->
+        <!-- Specifies the author of the website -->
         <meta name="author" content="Diego Rodriguez">
         <!-- Configures the viewport to ensure proper display on mobile devices-->
         <meta name="viewport"  content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <!-- Add a shortcut icon -->
+
+        <!-- ICON -->
         <link rel="shortcut icon" href="/src/images/kapanga.png" type="image/png">
-            <!-- Add a css file for put a hilarious GIF -->
+
+        <!-- CSS -->
+        <!-- Add a css file for put a hilarious GIF -->
         <link rel="stylesheet" href="/src/styles/gif.css">
-            <!-- Add styles.css  -->
+        <!-- Add styles.css  -->
         <link rel="stylesheet" href="/src/styles/ajstyle.css">
-            <!-- Page Title -->
+        <!-- Add style.min -->
+        <link rel="stylesheet" href="/src/styles/style.min.css">
+
+        <!-- TITLE-->
         <title>About me</title>
     </head>
     <body>
     <header>
-    <a href="index.html" class="btn">Return back</a>
-    <h1>It's me, Diego, there is some interesting things.</h1>  
+        <a href="index.html" class="btn">Return back</a>
+        <h1>It's me, Diego, there is some interesting things.</h1>  
     </header>
-        <section>
-        <img src="/src/images/sal.gif" class="gif" alt="">
-        <p>I'm 18 years old. I like interact in Internet, listening to music and spend time with my dog.</p>
-        <hr>
-        <h2>It all started</h2>
-        <p>I was born on September 4th, 2007, I was just a happy kid in these days, one of the souvenirs on the hospital, 
-            It's that I celebrated my birthday while I was having surgery; back then, I was diagnosed with pneumonia </p>
-        <img src="/src/images/birthday.jpg" alt="">
-        <h3>Music is my favorite form of expression</h3>
-        <p>Sometimes I like to listen to music on my computer. 
-            I like bachata, cuarteto cordobés, and champeta—to name a few of my favorite genres—
-            but I usually listen to all kinds of music and don't mind it.</p>
-        <img src="/src/images/pico.png" alt="">
-        <h2>Comedy, football and Wrestling</h2>
-        <p>In my daily life, I watch podcasts about football results and wrestling reviews.
-            The comedy sitcoms are my favorite types of series; 
-            and I rarely watch movies; I've always liked films that critique society, both past and present
-        </p>
-        <img src="/src/images/mickeyrouke.jpg" alt="">
-        <div class="final-section">
-        <h3>My life desventures</h3>
-        <p>In my life, I met all type of people, I had friends.
-            For ten years, I studied in a school called Colegio Inca, and there was a beautiful experience.
-            My promotion was explosive.
-            <img src="/src/images/mybros.jpg" class="last-img" alt="">
-        </p>
+        <section class="about-container">
+
+        <div class="about-block">
+                <img src="/src/images/sal.gif" class="gif" alt="Sal Vulcano">
+            <p>
+                I'm 18 years old. I like interacting on the Internet, listening to music and spending time with my dog.
+            </p>
         </div>
-        </section>
+
+
+
+
+        <div class="about-block">
+            <div class="text">
+                <h2>It all started</h2>
+                 <p>
+                    I was born on September 4th, 2007. I was a happy kid.
+                    One of my earliest memories is celebrating my birthday in the hospital
+                    while I was having surgery because I had pneumonia.
+                </p>
+            </div>
+            <div class="image">
+                <img src="/src/images/birthday.jpg" alt="Birthday in hospital">
+            </div>
+            
+        </div>
         
 
-    </body>
+        <div class="about-block">
+            <div class="text">
+                <h2>Music is my favorite form of expression</h2>
+                <p>
+                    I enjoy listening to music on my computer. 
+                    I like bachata, cuarteto cordobés, 
+                    and champeta, but I usually listen to all kinds of music.
+                </p>
+            </div>
+            <div class="image">
+               <img src="/src/images/pico.png" alt="Music culture image"> 
+            </div>
+            
+        </div>
+
+
+        <div class="about-block">
+            <div class="text">
+                <h2>Comedy, football and wrestling</h2>
+                <p>
+                    In my daily life, I watch podcasts about football and wrestling reviews. 
+                    I love comedy sitcoms, and I rarely watch movies, 
+                    but I enjoy films that critique society.
+                </p>
+            </div>
+            <div class="image">
+                 <img src="/src/images/mickeyrouke.jpg" alt="WrestlePhoto">
+            </div>
+           
+        </div>
+
+
+        <div class="final-section">
+            <div class="text">
+                <h3>My life adventures</h3>
+                <p>
+                In my life, I met many people and made friends. 
+                I studied for ten years at Colegio Inca, and it was a great experience.
+                </p>
+            </div>
+            <div class="image">
+                <img src="/src/images/mybros.jpg" class="last-img" alt="Friends from school">
+            </div>
+            
+        </div>
+
+        </section>
+
+</body>
 </html>
